@@ -31,12 +31,13 @@ A hands-on password-auditing lab from the **NetworkWalks Cybersecurity & Ethical
 5. [Repository Structure](#repository-structure)
 6. [Practical Workflow](#practical-workflow)
 7. [Screenshot Evidence](#screenshot-evidence)
-8. [Learning Outcomes](#learning-outcomes)
-9. [Security Insights](#security-insights)
-10. [Ethical Considerations](#ethical-considerations)
-11. [References](#references)
-12. [Author](#author)
-13. [Disclaimer](#disclaimer)
+8. [Result](#result)
+9. [Learning Outcomes](#learning-outcomes)
+10. [Security Insights](#security-insights)
+11. [Ethical Considerations](#ethical-considerations)
+12. [References](#references)
+13. [Author](#author)
+14. [Disclaimer](#disclaimer)
 
 ---
 
@@ -211,6 +212,15 @@ Once JTR/Johnny recovered the password, reopened the original encrypted PDF and 
 </details>
 
 *Final step: the recovered password was used to reopen the originally protected PDF, confirming the audit succeeded.*
+
+## Result
+
+The password for `My Locked PDF1.pdf` was successfully recovered via John the Ripper, driven through Johnny's GUI, and verified by reopening the file. The following flags were captured from the recovered PDF content:
+
+```text
+nw{networkwalks_flag1_jtr_270521_1}
+nw{networkwalks_persistence_jtr_270521}
+```
 
 ## Learning Outcomes
 
